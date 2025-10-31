@@ -1,0 +1,13 @@
+{
+	"name": "txplex-blackmagic",
+	"main": "src/index.js",
+	"compatibility_date": "2025-07-31",
+	"observability": {
+		"enabled": true
+	},
+	"no_bundle": true,
+	"vars": {
+		"URL": "https://nebtune.nebularrr.win/",
+		"BITRATE": "12000"
+	}
+}

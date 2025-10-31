@@ -1,0 +1,28 @@
+{
+	"name": "txplex-blackmagic",
+	"version": "1.0.0",
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"start": "wrangler dev"
+	},
+	"devDependencies": {
+		"wrangler": "^4.26.1"
+	},
+	"packageManager": "pnpm@9.1.4",
+	"engines": {
+		"pnpm": "^9.1.4"
+	},
+	"pnpm": {
+		"overrides": {
+			"esbuild": "0.21.4"
+		}
+	},
+	"private": true,
+	"cloudflare": {
+		"bindings": {
+			"URL": {
+				"description": "Add your Plex subdomain here, e.g. `plex.yourdomain.com`."
+			}
+		}
+	}
+}
